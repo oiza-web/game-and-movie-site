@@ -1,0 +1,15 @@
+$font-size-base: 0.9rem;
+$enable-responsive-font-sizes: true;
+
+$border-radius: 0.3rem;
+$border-radius-lg: 0.5rem;
+$border-radius-sm: 0.3rem;
+
+$primary: #00f99d;
+$secondary: #212d3a;
+
+$modal-fade-transform: scale(.8);
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
