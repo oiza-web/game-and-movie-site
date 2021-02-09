@@ -47,15 +47,15 @@
               </b-navbar-nav>
             </b-navbar>
             <div>
-              <h1 class="text-center mt-5">
+              <h1 class="text-center mt-5" id="header-text">
                 Unlimited Games, <br />
                 Interesting movies, and more.
               </h1>
-              <h4 class="text-center mt-5">
-                Enjoy a wonderful gaming experience
+              <h4 class="text-center mt-5"  id="header-text">
+                Check our Store for great suggestions
               </h4>
-              <h6 class="text-center mt-5">
-                Ready to play? click the button below
+              <h6 class="text-center mt-5"  id="header-text">
+                Click the button below to get started
               </h6>
             </div>
           </div>
@@ -117,7 +117,7 @@
                     </b-modal>
         </div>
       </div>
-    </b-container>
+    <!-- </b-container>
     <b-container fluid class="color">
       <b-row>
         <b-col sm="6 d-flex align-items-center mt-1">
@@ -208,7 +208,7 @@
             <li>Lorem, ipsum.</li>
           </ul>
         </b-col>
-      </b-row>
+      </b-row>-->
     </b-container>
   </div>
 </template>
@@ -440,6 +440,10 @@ input {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+}
+
+#header-text{
+  color: white;
 }
 
 </style>

@@ -20,11 +20,11 @@
 
       <div>
         <ul class="menu-bar">
-          <li> <a href="/Dashboard">MyGames</a></li>
+          <li> <a href="/Dashboard/dashboard">MyGames</a></li>
           <li> <nuxt-link to="/Dashboard/store" > Store</nuxt-link></li>
           <li> <a href=""> Media</a></li>
           <li> <a href=""> Library</a></li>
-          <li> <a href="">Settings</a></li>
+          <li> <a href="/">Settings</a></li>
         </ul>
       </div>
 
@@ -64,6 +64,7 @@
       <!-- </div> -->
 
       </div>
+
       <!-- <div>
         <ul class="footer-nav">
           <li> <a href="#"><img src="../../assets/chat.png" alt=""></a></li>
@@ -87,7 +88,7 @@ import axios from 'axios'
         movies: [],
         flickityOptions: {
         initialIndex: 1,
-        prevNextButtons: true,
+        prevNextButtons: false,
         pageDots: false,
         freeScroll: true,
         contain: true,
@@ -165,7 +166,7 @@ import axios from 'axios'
 
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
 }
 
@@ -180,6 +181,7 @@ a:hover{
   color: white;
   position: relative;
   z-index: 1;
+  text-decoration: none !important;
 
 
 
@@ -223,5 +225,19 @@ p{
     min-width: 300px;
     margin-right: 5px;
 }
+
+button {
+	border-radius: 20px;
+	border: 1px solid #f8f5f4;
+	background-color: #cf1717;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
 
 </style>
