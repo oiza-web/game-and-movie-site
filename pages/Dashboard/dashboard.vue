@@ -18,7 +18,7 @@
           <li> <nuxt-link to="/Dashboard/store" > Store</nuxt-link></li>
           <li> <a href=""> Media</a></li>
           <li> <a href=""> Library</a></li>
-          <li> <a href="/">Settings</a></li>
+          <li> <a href="">Settings</a></li>
         </ul>
       </div>
       <div>
@@ -39,9 +39,9 @@
           <li> <a href="#"><img src="../../assets/chat.png" alt=""></a></li>
           <li> <a href="#"><img src="../../assets/trophy-cup-silhouette.png" alt=""></a></li>
           <li> <a href=""> <img src="../../assets/gamepad-controller.png" alt=""></a></li>
+
         </ul>
       </div>
-
     </div>
   </div>
 
@@ -78,7 +78,7 @@ export default {
 </script>
 
 
-<style >
+<style scoped>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 .dashboard-bg{
   background-image: url('../../assets/blur BG.jpg');
@@ -148,18 +148,11 @@ p{
   display: inline-flex;
   position: relative;
   left: 20%;
-}button {
-	border-radius: 20px;
-	border: 1px solid #f8f5f4;
-	background-color: #cf1717;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
 }
+
+
+
+
 
 
 </style>

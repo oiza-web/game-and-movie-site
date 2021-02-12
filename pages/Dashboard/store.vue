@@ -28,7 +28,7 @@
         </ul>
       </div>
 
-      <div v-if="movies.length ">
+      <div v-if="movies.length">
         <flickity ref="flickity" :options="flickityOptions"  >
           <div v-for="(movie, i) in movies" :key="i" :class="'carousel-cell' + i"><img :src="`http://image.tmdb.org/t/p/w200${movie.poster_path}`" style="width: 100%;height: 300px; padding:10px; object-fit: cover"></div>
         </flickity>
@@ -171,7 +171,6 @@ a{
 }
 
 a:hover{
-  display: block;
   padding-top: .3em;
   padding-bottom: .2em;
   padding-left: .4em;
